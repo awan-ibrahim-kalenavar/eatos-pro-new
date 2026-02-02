@@ -158,6 +158,58 @@ const demoMenuItems = [
     imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c94539c2ab?w=80&h=80&fit=crop&crop=center',
     createdAt: new Date(),
     updatedAt: new Date()
+  },
+  {
+    _id: 'demo13',
+    name: 'Pasta Carbonara',
+    description: 'Classic Italian pasta with eggs, bacon, parmesan cheese, and black pepper',
+    category: 'Main Course',
+    price: 18.99,
+    ingredients: ['spaghetti', 'eggs', 'bacon', 'parmesan cheese', 'black pepper'],
+    isAvailable: true,
+    preparationTime: 25,
+    imageUrl: 'https://images.unsplash.com/photo-1602821064615-45bf5b67d933?w=80&h=80&fit=crop&crop=center',
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+  {
+    _id: 'demo14',
+    name: 'Mojito Cocktail',
+    description: 'Refreshing Cuban cocktail with rum, mint, lime, and soda water',
+    category: 'Beverage',
+    price: 8.99,
+    ingredients: ['white rum', 'fresh mint', 'lime juice', 'sugar', 'soda water'],
+    isAvailable: true,
+    preparationTime: 5,
+    imageUrl: 'https://images.unsplash.com/photo-1546171755-1fd32b9c4d86?w=80&h=80&fit=crop&crop=center',
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+  {
+    _id: 'demo15',
+    name: 'Chicken Wings',
+    description: 'Crispy fried chicken wings with buffalo sauce and blue cheese dip',
+    category: 'Appetizer',
+    price: 9.99,
+    ingredients: ['chicken wings', 'buffalo sauce', 'blue cheese', 'celery', 'carrots'],
+    isAvailable: true,
+    preparationTime: 20,
+    imageUrl: 'https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=80&h=80&fit=crop&crop=center',
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+  {
+    _id: 'demo16',
+    name: 'Cheesecake',
+    description: 'New York style cheesecake with strawberry topping',
+    category: 'Dessert',
+    price: 7.99,
+    ingredients: ['cream cheese', 'sugar', 'eggs', 'vanilla', 'strawberries'],
+    isAvailable: true,
+    preparationTime: 15,
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=80&h=80&fit=crop&crop=center',
+    createdAt: new Date(),
+    updatedAt: new Date()
   }
 ];
 
